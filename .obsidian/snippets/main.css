@@ -74,3 +74,105 @@
 .my-card__btn:active {
   transform: scale(0.97);
 }
+
+.magic-text {
+  display: inline-block;
+  position: relative;
+
+  /* Палитра волны: прохладный → белый → тёплый → белый → прохладный */
+  background-image: linear-gradient(
+    100deg,
+    #b6c8ff 0%,
+    #ffffff 12%,
+    #ffe0f5 24%,
+    #ffffff 36%,
+    #d6ffec 48%,
+    #ffffff 60%,
+    #ffe6c8 72%,
+    #ffffff 84%,
+    #b6c8ff 100%
+  );
+  background-size: 300% 100%;
+  background-position: 0% 50%;
+
+  /* Заливка букв = градиент, цвет текста делаем прозрачным */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: white;
+
+  /* Тонкая чёрная обкантовка, сохраняется при отрисовке заливки */
+  -webkit-text-stroke: 0.6px rgba(0, 0, 0, 0.85);
+  paint-order: stroke fill;
+
+  /* Свечение намеренно слабое — три коротких drop-shadow */
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.45))
+    drop-shadow(0 0 6px rgba(180, 200, 255, 0.3))
+    drop-shadow(0 0 12px rgba(200, 160, 255, 0.18));
+
+  animation:
+    magic-wave 8s linear infinite,
+    magic-iridescent 12s ease-in-out infinite;
+  will-change: background-position, filter;
+}
+
+/* ---------- Волна-перелив: гоним background-position ---------- */
+@keyframes magic-wave {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+/* ---------- Переливы свечения: оттенки drop-shadow плавно меняются ---------- */
+@keyframes magic-iridescent {
+  0% {
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.45))
+      drop-shadow(0 0 6px rgba(170, 210, 255, 0.32))
+      drop-shadow(0 0 12px rgba(160, 200, 255, 0.18));
+  }
+  25% {
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.45))
+      drop-shadow(0 0 6px rgba(180, 255, 220, 0.32))
+      drop-shadow(0 0 12px rgba(160, 255, 200, 0.18));
+  }
+  50% {
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.45))
+      drop-shadow(0 0 6px rgba(255, 220, 170, 0.32))
+      drop-shadow(0 0 12px rgba(255, 200, 150, 0.18));
+  }
+  75% {
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.45))
+      drop-shadow(0 0 6px rgba(255, 180, 220, 0.32))
+      drop-shadow(0 0 12px rgba(255, 160, 210, 0.18));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.45))
+      drop-shadow(0 0 6px rgba(170, 210, 255, 0.32))
+      drop-shadow(0 0 12px rgba(160, 200, 255, 0.18));
+  }
+}
+
+/* ---------- Буквы: качание вверх-вниз ----------
+     Каждая буква — inline-block, чтобы её можно было трансформировать.
+     Задержка animation-delay задаётся JS-ом по индексу буквы,
+     что и создаёт волну, бегущую вдоль слова. */
+.magic-letter {
+  display: inline-block;
+  will-change: transform;
+  animation: magic-bob 2.8s ease-in-out infinite;
+  /* дублируем, чтобы контур корректно рисовался на трансформированных буквах */
+  paint-order: stroke fill;
+}
+
+/* Лёгкая, ненавязчивая амплитуда: буквы поднимаются на 0.1em и опускаются */
+@keyframes magic-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.1em);
+  }
+}

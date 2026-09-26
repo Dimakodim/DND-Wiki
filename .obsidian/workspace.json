@@ -11,10 +11,14 @@
             "id": "3cc203dd7336fa04",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "ДНД/Гораций.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Гораций"
             }
           }
         ]
@@ -222,15 +226,20 @@
   },
   "active": "3cc203dd7336fa04",
   "lastOpenFiles": [
-    "ДНД/Адольф.md",
-    "ДНД/Якоб.md",
-    "ДНД/Джек.md",
-    "ДНД/Ден Смит.md",
-    "ДНД/Том.md",
-    "ДНД/Пьер Дунн.md",
-    "ДНД/Гораций.md",
     "ДНД/Батько Пьера.md",
+    "ДНД/Адольф.md",
+    "ДНД/Гораций.md",
+    "ДНД/Ден Смит.md",
+    "ДНД/Джек.md",
+    "ДНД/Пьер Дунн.md",
+    "ДНД/Том.md",
     "ДНД/Vecjh.md",
+    "ДНД/Якоб.md",
+    "Templates/ДНД КАРТОЧКА.md",
+    "scripts/main.js",
+    "scripts/magictext.js",
+    "scripts/Текстовый документ.txt",
+    "scripts",
     "Pasted image 20260925214201.png",
     "Pasted image 20260925200529.png",
     "Pasted image 20260925191240.png",
@@ -244,7 +253,6 @@
     "Templates/Daily.md",
     "Без названия 5.base",
     "Без названия 9.md",
-    "Templates/ДНД КАРТОЧКА.md",
     "Проекты/Карточка проекта.md",
     "Без названия.base",
     "Рецепты/Тесто дрожжевое.md",
@@ -257,13 +265,9 @@
     "Без названия.canvas",
     "Без названия 4.base",
     "Рецепты",
-    "ДНД",
     "Arduino/ESP32.md",
     "SS14/Темп.md",
-    "Без названия 3.base",
     "FRONTEND_REQUIREMENTS.md",
-    "SS14/газы.pdf",
-    "SS14/msoE8BB.tmp",
     "SS14/Альфреда.md",
     "SS14/БригМед.md",
     "SS14/Картинки.md",
