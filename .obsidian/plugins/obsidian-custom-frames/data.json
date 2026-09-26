@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "url": "https://wiki.deadspace14.net/Заглавная_страница",
+      "displayName": "MK14",
+      "icon": "columns-4",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

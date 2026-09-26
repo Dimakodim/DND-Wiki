@@ -1,0 +1,76 @@
+.my-card {
+  --mc-bg: var(--background-secondary);
+  --mc-border: var(--background-modifier-border);
+  --mc-accent: var(--interactive-accent);
+  --mc-radius: 12px;
+
+  background: var(--mc-bg);
+  border: 1px solid var(--mc-border);
+  border-left: 3px solid var(--mc-accent);
+  border-radius: var(--mc-radius);
+  padding: 14px 16px;
+  margin: 12px 0;
+  font-family: var(--font-interface);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.my-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  border-style: dashed;
+  display: inline-block;
+}
+
+.my-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.my-card__title {
+  font-weight: 600;
+  color: var(--text-normal);
+}
+.my-card__badge {
+  font-size: 0.72em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--mc-accent);
+  color: var(--text-on-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.my-card__body {
+  color: var(--text-muted);
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
+
+.my-card__actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--mc-border);
+}
+.my-card__btn {
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.82em;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--mc-border);
+  background: transparent;
+  color: var(--text-normal);
+  transition: all 0.15s ease;
+}
+.my-card__btn:hover {
+  background: var(--mc-accent);
+  color: var(--text-on-accent);
+  border-color: var(--mc-accent);
+}
+.my-card__btn:active {
+  transform: scale(0.97);
+}

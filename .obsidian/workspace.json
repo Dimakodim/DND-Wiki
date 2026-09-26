@@ -1,0 +1,277 @@
+{
+  "main": {
+    "id": "ff71c3a2702a5e87",
+    "type": "split",
+    "children": [
+      {
+        "id": "67736ebfa598ce3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cc203dd7336fa04",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20260925214201.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260925214201"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8c14a765b0f7266",
+    "type": "split",
+    "children": [
+      {
+        "id": "1768b7a08d5f67ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a3420dcee07e379",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "11dd30fe99f4d76d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "2c77847572ae656a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "592bf81b89199841",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fc9897fe1ff392b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bf0ed9a754e6fcd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Untitled"
+            }
+          },
+          {
+            "id": "3fa44de9dd9c5a3f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Начало.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Начало"
+            }
+          },
+          {
+            "id": "939d015ac4671f83",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "000175111ef84bf1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Календарь/2025-W48.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура 2025-W48"
+            }
+          },
+          {
+            "id": "1e1be31b3c8e97ab",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "6bc4ca2692f4d536",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "DICE_ROLLER_VIEW"
+            }
+          },
+          {
+            "id": "b1a3922c3ba522f1",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "DICE_ROLLER_VIEW"
+            }
+          },
+          {
+            "id": "4b9f8649c3249bfe",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
+          {
+            "id": "217cb54560dc9fe1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Создать новую базу": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "workspaces:Пространства": false,
+      "obsidian-custom-frames:Open MK14": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3a3420dcee07e379",
+  "lastOpenFiles": [
+    "Pasted image 20260925200529.png",
+    "Pasted image 20260925191240.png",
+    "Pasted image 20260924233619.png",
+    "Pasted image 20260924233606.png",
+    "Pasted image 20260924230006.png",
+    "Pasted image 20260514175938.png",
+    "Pasted image 20260409161745.png",
+    "Pasted image 20260226144756.png",
+    "Pasted image 20260111112806.png",
+    "Pasted image 20260514200509.png",
+    "Pasted image 20260924234806.png",
+    "Templates/Daily.md",
+    "ДНД/Якоб.md",
+    "ДНД/Vecjh.md",
+    "Без названия 5.base",
+    "ДНД/Батько Пьера.md",
+    "ДНД/Пьер Дунн.md",
+    "ДНД/Том.md",
+    "ДНД/Гораций.md",
+    "ДНД/Джек.md",
+    "ДНД/Адольф.md",
+    "ДНД/Ден Смит.md",
+    "Без названия 9.md",
+    "Templates/ДНД КАРТОЧКА.md",
+    "Проекты/Карточка проекта.md",
+    "Без названия.base",
+    "Рецепты/Тесто дрожжевое.md",
+    "Проекты",
+    "Без названия 1.md",
+    "Без названия 2.canvas",
+    "Без названия 2.base",
+    "Без названия 2.md",
+    "Без названия 1.canvas",
+    "Без названия.canvas",
+    "Без названия 4.base",
+    "Рецепты",
+    "ДНД",
+    "Arduino/ESP32.md",
+    "SS14/Темп.md",
+    "Без названия 3.base",
+    "FRONTEND_REQUIREMENTS.md",
+    "SS14/газы.pdf",
+    "SS14/msoE8BB.tmp",
+    "SS14/Альфреда.md",
+    "SS14/БригМед.md",
+    "SS14/Картинки.md",
+    "SS14/SS14.md",
+    "Без названия.md",
+    "тдб.md"
+  ]
+}
