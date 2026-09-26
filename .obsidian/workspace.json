@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ДНД/Гораций.md",
+                "file": "Templates/ДНД КАРТОЧКА.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Гораций"
+              "title": "ДНД КАРТОЧКА"
             }
           }
         ]
@@ -226,15 +226,15 @@
   },
   "active": "3cc203dd7336fa04",
   "lastOpenFiles": [
-    "ДНД/Батько Пьера.md",
-    "ДНД/Адольф.md",
-    "ДНД/Гораций.md",
-    "ДНД/Ден Смит.md",
-    "ДНД/Джек.md",
-    "ДНД/Пьер Дунн.md",
-    "ДНД/Том.md",
     "ДНД/Vecjh.md",
     "ДНД/Якоб.md",
+    "ДНД/Том.md",
+    "ДНД/Пьер Дунн.md",
+    "ДНД/Джек.md",
+    "ДНД/Ден Смит.md",
+    "ДНД/Гораций.md",
+    "ДНД/Батько Пьера.md",
+    "ДНД/Адольф.md",
     "Templates/ДНД КАРТОЧКА.md",
     "scripts/main.js",
     "scripts/magictext.js",
