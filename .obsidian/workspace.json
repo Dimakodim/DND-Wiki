@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/ДНД КАРТОЧКА.md",
+                "file": "ДНД/Батько Пьера.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ДНД КАРТОЧКА"
+              "title": "Батько Пьера"
             }
           }
         ]
@@ -226,16 +226,16 @@
   },
   "active": "3cc203dd7336fa04",
   "lastOpenFiles": [
-    "ДНД/Vecjh.md",
     "ДНД/Якоб.md",
     "ДНД/Том.md",
-    "ДНД/Пьер Дунн.md",
-    "ДНД/Джек.md",
-    "ДНД/Ден Смит.md",
-    "ДНД/Гораций.md",
-    "ДНД/Батько Пьера.md",
     "ДНД/Адольф.md",
+    "ДНД/Батько Пьера.md",
+    "ДНД/Гораций.md",
+    "ДНД/Ден Смит.md",
+    "ДНД/Джек.md",
+    "ДНД/Пьер Дунн.md",
     "Templates/ДНД КАРТОЧКА.md",
+    "ДНД/Vecjh.md",
     "scripts/main.js",
     "scripts/magictext.js",
     "scripts/Текстовый документ.txt",
